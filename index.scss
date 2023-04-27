@@ -32,6 +32,10 @@
                 flex-direction: row;
                 justify-content: center;
                 align-items: center;
+                height: 150px;
+                .newRowText{
+                    margin:0px;
+                }
 
                 .increment{
                     height: 28px;
@@ -48,7 +52,7 @@
                 }
                 .increment:hover{
                     cursor: pointer;
-                    transform: scale(1.2);
+                    transform: scale(1.1);
                 }
                 .countElement{
                     margin: 0px 20px;
@@ -78,7 +82,7 @@
                 }
                 .decrement:hover{
                     cursor: pointer;
-                    transform: scale(1.2);
+                    transform: scale(1.1);
                 }
             }
             
@@ -95,13 +99,15 @@
             }
             .button:hover{
                 cursor: pointer;
-                transform: scale(1.2);
+                transform: scale(1.1);
             }
             
 
             .save {
                 background: #AB8360;
                 border:solid 2px #AB8360;
+                margin: 0px 10px;
+                
                 
             }
 
@@ -109,6 +115,7 @@
                 background-color: #fafafa;
                 border: solid 2px #AB8360;
                 color: #AB8360;
+                margin: 0px 10px;
                 
             }
         }
