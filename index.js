@@ -27,3 +27,7 @@ function save() {
     count=0;
     countEl.textContent = count;
 }
+
+function deleteEntries(){
+    saveEl.textContent= "";
+}

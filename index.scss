@@ -23,6 +23,7 @@
             margin-top: 30px;
             margin-bottom: 45px;
             font-weight: 650;
+            
         }
 
         .newRow{
@@ -116,6 +117,33 @@
                 border: solid 2px #AB8360;
                 color: #AB8360;
                 margin: 0px 10px;
+                
+            }
+        }
+
+        .previousEntries{
+            .previousEntriesText{
+
+            }
+            .deleteEntries{
+                    border: none;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    color: #AB8360;
+                    font-weight: bold;
+                    width: 200px;
+                    margin-bottom: 5px;
+                    border-radius: 5px;
+                    background-color: #fafafa;
+                    border:solid 2px #AB8360;
+                    margin: 0px 10px;
+                   
+            }
+            .deleteEntries:hover{
+                    cursor: pointer;
+                    transform: scale(1.1);
+            }  
+                               
                 
             }
         }
