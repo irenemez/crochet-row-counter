@@ -8,7 +8,11 @@ function increment() {
 }
 
 function decrement() {
-    count -= 1;
+    if (count>0){
+        count -= 1;
+    } else {
+        count=0;
+    }
     countEl.textContent = count;
 }
 
