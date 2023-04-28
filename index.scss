@@ -11,12 +11,12 @@
         color: #151919;
       
         .container {
-            background: white;
+
             
             margin: auto;
             border: 3px solid #5D4F46;
             border-radius: 15px;
-            background-color: #F6F3EC80;
+            background-color: #F6F3EC90;
             
 
             .h1Container{
@@ -37,6 +37,8 @@
             .newRow{
                 padding-top: 25px;
                 font-size:20px;
+                border-bottom:solid #5D4F46 3px;
+                padding-bottom: 35px;
                 .countSection{
                     display: flex;
                     flex-direction: row;
@@ -44,6 +46,7 @@
                     align-items: center;
                     height: 100px;
                     font-size:20px;
+                    
                     .newRowText{
                         margin:0px;
                     }
@@ -66,16 +69,17 @@
                         transform: scale(1.1);
                     }
                     .countElement{
-                        margin: 0px 20px;
+                        margin: 0px 15px;
     
     
                         .countNumber{
-                            font-size: 70px;
+                            font-size: 60px;
                             font-weight: 460;
                             background-color: #fafafa;
-                            width: 100px;
+                            width: 120px;
                             text-align: center;
                             border-radius: 15px;
+                            padding:3px;
                         }
                     }
                     .decrement{
@@ -103,7 +107,7 @@
                     padding-bottom: 10px;
                     color: white;
                     font-weight: bold;
-                    width: 200px;
+                    width: 170px;
                     margin-bottom: 5px;
                     border-radius: 5px;
                    
@@ -154,7 +158,7 @@
                         padding-bottom: 10px;
                         color: #5D4F46;
                         font-weight: bold;
-                        width: 200px;
+                        width: 170px;
                         margin-bottom: 5px;
                         border-radius: 5px;
                         background-color: #fafafa;
